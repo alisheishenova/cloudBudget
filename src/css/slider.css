@@ -1,0 +1,22 @@
+.slider {
+  padding: 95px 0 95px;
+  background: #ED4C5C;
+  color: #FFFFFF;
+}
+.slider__title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+}
+.slider__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  margin: 30px 0 42px;
+}
+.slider__icon {
+  color: #FFFFFF;
+  font-size: 35px;
+  margin-right: 25px;
+  text-decoration: none;
+}

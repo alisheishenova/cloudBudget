@@ -1,0 +1,56 @@
+.header {
+  position: absolute;
+  width: 100%;
+  top: 30px;
+  color: #FFFFFF;
+  &__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  &__title{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  &__menu{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    column-gap: 30px;
+    list-style-type: none;
+  }
+
+  &__link{
+    cursor: pointer;
+
+  }
+  &__button{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    height: 40px;
+    padding: 0 28px;
+    border-radius: 6px;
+    border: 1px solid #FFFFFF;
+    cursor: pointer;
+    margin-left: 29px;
+    transition: .6s;
+    background: transparent;
+    &:hover{
+      background-color: #FFFFFF;
+      color: #ED4C5C;
+      transition: .6s;
+    }
+  }
+
+
+}
